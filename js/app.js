@@ -18,7 +18,7 @@ class RGB {
         this.cycle = function() {
             this.cycleCount++;
             console.log(this.cycleCount)
-            if (this.cycleCount === 255) {
+            if (this.cycleCount === 85) {
                 if (this.currentColor === "red") {
                     this.currentColor = "yellow";
                 }
@@ -44,22 +44,22 @@ class RGB {
         this.advanceRGB = function() {
             this.cycle();
             if (this.currentColor == "red") {
-                this.b = this.b -2;
+                this.b = this.b -3;
             }
             else if (this.currentColor == "yellow") {
-                this.g = this.g +2;
+                this.g = this.g +3;
             }
             else if (this.currentColor == "green") {
-                this.r = this.r -2;
+                this.r = this.r -3;
             }
             else if (this.currentColor == "cyan") {
-                this.b = this.b +2;
+                this.b = this.b +3;
             }
             else if (this.currentColor == "blue") {
-                this.g = this.g -2;
+                this.g = this.g -3;
             }
             else if (this.currentColor == "magenta") {
-                this.r = this.r +2;
+                this.r = this.r +3;
             }
         };
 
