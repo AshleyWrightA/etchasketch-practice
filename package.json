@@ -1,0 +1,32 @@
+{
+  "name": "etchasketch-practice",
+  "version": "1.0.0",
+  "description": "Etch-a-sketch demo site",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshleyWrightA/etchasketch-practice.git"
+  },
+  "author": "Ashley Wright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshleyWrightA/etchasketch-practice/issues"
+  },
+  "homepage": "https://github.com/AshleyWrightA/etchasketch-practice#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^5.0.1"
+  }
+}
