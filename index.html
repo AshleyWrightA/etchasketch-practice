@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/74b956baff.js" crossorigin="anonymous"></script>
+    <title>Etch-a-Sketch</title>
+  </head>
+  <body>
+    <div class="content-container">
+      <div class="title">Etch-a-Sketch</div>
+      <div class="content">
+        <div class="grid-box"></div>
+      </div>
+      <div class="button-container">
+        <div class="left-buttons">
+          <button class="etch-button classic-button">Classic</button>
+          <button class="etch-button rainbow-button">Rainbow</button>
+        </div>
+        <div class="center-buttons">
+          <div class="slider-container">
+            <div class="slider-display"></div>
+            <input type="range" min="1" max="64" value="8" class="slider grid-size-silder" />
+          </div>
+        </div>
+        <div class="right-buttons">
+          <button class="etch-button clear-button">Clear</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Built by Ashley Wright:</p>
+      <a href="https://github.com/AshleyWrightA">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </body>
+</html>
